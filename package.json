@@ -1,9 +1,10 @@
 {
   "name": "project",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -11,5 +12,8 @@
   ],
   "author": "Dipanshu Rai",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
